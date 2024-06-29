@@ -19,13 +19,13 @@ var all = [
    { question: "What is capital city of South Africa ?", options: ["Pretoria", "Cape Town", "Bloemfontein", "All of the above"], answer: 3 },
    { question: "What is the largest planet in our Solar System?", options: ["Earth", "Saturn", "Jupiter", "Uranus"], answer: 2 },
    { question: "What is the smallest bone in the human body?", options: ["Femur", "Rib", "Sternum", "Stapes"], answer: 3 },
-   { question: "Which animal is known as man's best friend?", options: [ "Cat", "Dog", "Elephant", "Fish"], answer: 1 },
+   { question: "Which animal is known as man's best friend?", options: ["Cat", "Dog", "Elephant", "Fish"], answer: 1 },
    { question: "Which of the following musicians was known as the King of Pop?", options: ["Elvis Presley", "Michael Jackson", "John Lennon", "Stevie Wonder"], answer: 2 },
-   { question: "Which number completes the sequence? 2,5,8,11,14....", options: ["15", "19", "17", "20"], answer: 2 },
-   { question: "What has a key but can't open locks?", options: ["A phone", "A door", "A car", "A piano"], answer: 0 },
+   { question: "Which number completes the sequence? 2,5,8,11,14....", options: ["17", "18", "19", "20"], answer: 0 },
+   { question: "What has a key but can't open locks?", options: ["A piano", "A door", "A car", "A phone"], answer: 0 },
    { question: "What starts with an E, ends with an E, but only contains one letter?", options: ["An envelope", "A letter", "A word", "A sentence"], answer: 1 },
-   { question: "What has a face and two hands but no arms or legs?", options: ["A watch", "A clock", "A mirror", "A picture"], answer: 1 },
-   { question: "What has a head, tail, but no body?", options: ["A pen", "A stamp", "A coin ", "A pencil"], answer: 2 },
+   { question: "What has a face and two hands but no arms or legs?", options: ["A clock", "A watch", "A mirror", "A picture"], answer: 0 },
+   { question: "What has a head, tail, but no body?", options: ["A coin", "A stamp", "A pen ", "A pencil"], answer: 0 },
    { question: "Who is known as the 'Master Blaster' in cricket?", options: ["Sachin Tendulkar", "Ricky Ponting", "Brian Lara", "Jacques Kallis"], answer: 0 },
    { question: "What has to be broken before you have to use it?", options: ["A glass", "A door", "An egg", "A book"], answer: 2 },
    { question: "What is always coming but never arrives?", options: ["Yesterday", "Tomorrow", "Today", "Next Week"], answer: 1 },
@@ -174,7 +174,7 @@ document.getElementById("submit1").addEventListener("click", () => {
 
 function generateQuizResults() {
     return `
-
+    
         Total Marks: 20\n
         Your Marks: ${obtm}\n
         Your Percentage: ${(obtm * 100 / 20).toFixed(2)}%\n
