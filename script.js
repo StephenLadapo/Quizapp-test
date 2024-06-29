@@ -22,7 +22,7 @@ var all = [
    { question: "Which animal is known as man's best friend?", options: [ "Cat", "Dog", "Elephant", "Fish"], answer: 1 },
    { question: "Which of the following musicians was known as the King of Pop?", options: ["Elvis Presley", "Michael Jackson", "John Lennon", "Stevie Wonder"], answer: 2 },
    { question: "Which number completes the sequence? 2,5,8,11,14....", options: ["15", "19", "17", "20"], answer: 2 },
-   { question: "What has a key but can't open locks?", options: ["A phone", "A door", "A car", "A piano"], answer: 0 },
+   { question: "What has a key but can't open locks?", options: ["A piano", "A door", "A car", "A phone"], answer: 0 },
    { question: "What starts with an E, ends with an E, but only contains one letter?", options: ["An envelope", "A letter", "A word", "A sentence"], answer: 1 },
    { question: "What has a face and two hands but no arms or legs?", options: ["A watch", "A clock", "A mirror", "A picture"], answer: 1 },
    { question: "What has a head, tail, but no body?", options: ["A pen", "A stamp", "A coin ", "A pencil"], answer: 2 },
