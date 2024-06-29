@@ -23,7 +23,7 @@
         <p id="code">&copy; Code by Stephen Ladapo</p>
         </div>
         <div class="question-no">
-            <h3 class="q-text">Questions:<span id="curruentQuestion"> 1</span>/<span id="totalQuestion">20</span></h3>
+            <h3 class="q-text">Questions:<span id="curruentQuestion"> 1</span>-<span id="totalQuestion">20</span></h3>
             <h3 id="dots">------------------------------</h3>
         </div>
 
@@ -39,19 +39,18 @@
         <button id="next">start Quiz</button>
         </div>
         
-
-
 <h4 class="allh" id="allh"> Select the correct answer.</h4>
 <div class="container-fluid" id="container-fluid">
+    
     <div id="all" class="all">
-        <p id="ques1"></p>
-        <span id="tim" class="float-left" style="position: fixed;right: 10px;top: 20px;">0</span>
-        <span id="tim1" class="float-left" style="position: fixed;right: 30px;top: 20px;">0</span>
-
-        <input type="radio" value="0" name="opt" id="" class="rad"><span id="opt1"></span><br>
-        <input type="radio" value="1" name="opt" id="" class="rad"><span id="opt2"></span><br>
-        <input type="radio" value="2" name="opt" id="" class="rad"><span id="opt3"></span><br>
-        <input type="radio" value="3" name="opt" id="" class="rad"><span id="opt4"></span><br>
+    <div id="timer">
+            <span id ="tim1">0:</span><span id="tim">0</span>
+        </div>
+      <p id="ques1"></p>
+        <label><input type="radio" value="0" name="opt"><span id="opt1"></span></label><br>
+        <label><input type="radio" value="1" name="opt"><span id="opt2"></span></label><br>
+        <label><input type="radio" value="2" name="opt"><span id="opt3"></span></label><br>
+        <label><input type="radio" value="3" name="opt"><span id="opt4"></span></label><br>
     </div> 
 <div>
 <button id="result">Result</button>
@@ -78,7 +77,7 @@
     <script type="text/javascript">
         (function(){
             emailjs.init({
-                publicKey:"nNHXTt69FNgEoAnz3",
+                publicKey:"ZVJqFtna5EaBhHwj4",
             });
         })();
         </script>
