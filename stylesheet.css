@@ -274,3 +274,12 @@ button{
     align-items: baseline;
     background-color: black;
 }
+#tim,#tim1{
+    right: 0px;
+    margin-left: 0px;
+    padding: 100px auto;
+    justify-content: center;
+    color:black ;
+    text-align: center;
+    align-items: center;
+}
