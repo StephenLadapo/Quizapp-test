@@ -20,7 +20,7 @@ var all = [
    { question: "What is the largest planet in our Solar System?", options: ["Earth", "Saturn", "Jupiter", "Uranus"], answer: 2 },
    { question: "What is the smallest bone in the human body?", options: ["Femur", "Rib", "Sternum", "Stapes"], answer: 3 },
    { question: "Which animal is known as man's best friend?", options: ["Cat", "Dog", "Elephant", "Fish"], answer: 1 },
-   { question: "Which of the following musicians was known as the King of Pop?", options: ["Elvis Presley", "Michael Jackson", "John Lennon", "Stevie Wonder"], answer: 2 },
+   { question: "Which of the following musicians was known as the King of Pop?", options: ["Elvis Presley", "Michael Jackson", "John Lennon", "Stevie Wonder"], answer: 1 },
    { question: "Which number completes the sequence? 2,5,8,11,14....", options: ["17", "18", "19", "20"], answer: 0 },
    { question: "What has a key but can't open locks?", options: ["A piano", "A door", "A car", "A phone"], answer: 0 },
    { question: "What starts with an E, ends with an E, but only contains one letter?", options: ["An envelope", "A letter", "A word", "A sentence"], answer: 1 },
