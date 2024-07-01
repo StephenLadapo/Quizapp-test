@@ -23,7 +23,7 @@ var all = [
    { question: "Which of the following musicians was known as the King of Pop?", options: ["Elvis Presley", "Michael Jackson", "John Lennon", "Stevie Wonder"], answer: 1 },
    { question: "Which number completes the sequence? 2,5,8,11,14....", options: ["17", "18", "19", "20"], answer: 0 },
    { question: "What has a key but can't open locks?", options: ["A piano", "A door", "A car", "A phone"], answer: 0 },
-   { question: "What starts with an E, ends with an E, but only contains one letter?", options: ["An envelope", "A letter", "A word", "A sentence"], answer: 1 },
+   { question: "What starts with an E, ends with an E, but only contains one letter?", options: ["An envelope", "A letter", "A word", "A sentence"], answer: 0 },
    { question: "What has a face and two hands but no arms or legs?", options: ["A clock", "A watch", "A mirror", "A picture"], answer: 0 },
    { question: "What has a head, tail, but no body?", options: ["A coin", "A stamp", "A pen ", "A pencil"], answer: 0 },
    { question: "Who is known as the 'Master Blaster' in cricket?", options: ["Sachin Tendulkar", "Ricky Ponting", "Brian Lara", "Jacques Kallis"], answer: 0 },
